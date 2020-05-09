@@ -1,3 +1,6 @@
 <?php
-echo json_encode('Hello World');
+$name=$_REQUEST['name'];
+if($name != ''){
+	echo json_encode("successs");
+}
 ?>
