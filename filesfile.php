@@ -1,3 +1,3 @@
 <?php
-echo("Just for Show now");
+echo json_encode('Hello World');
 ?>
